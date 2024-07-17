@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function grade(score)
+        {
+            switch(true)
+            {
+                case score>=90 :
+                {
+
+                    console.log("a grade");
+                    break;
+                }
+                case score<=80 && score>=70:
+                {
+
+                    console.log("b grade");
+                    break;
+                }
+                case score<70 && score>50:
+                {
+
+                    console.log("c grade");
+                    break;
+                }
+                case score<=50 && score>=30:
+                {
+
+                    console.log("d grade");
+                    break;
+                }
+           
+            }
+        }
+        grade(70);
+    </script>
+</body>
+</html>
